@@ -6,6 +6,7 @@ import 'package:nb_utils/nb_utils.dart';
 
 
 import '../../authentication/sign_in.dart';
+import '../bottom navigration/bottom_navigation.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void checkUser() async{
     await Future.delayed(const Duration(seconds: 2)).then((value) {
       if(currentUser != null){
-        const StudentList().launch(context,isNewTask: true);
+        const BottomNav().launch(context,isNewTask: true);
       } else{
         const SignIn().launch(context,isNewTask: true);
       }
