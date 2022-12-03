@@ -15,6 +15,7 @@ class LogInRepo extends ChangeNotifier {
   Future<void> signIn(BuildContext context) async {
     EasyLoading.show(status: 'Login...');
     try {
+
       UserCredential userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password);
       // ignore: unnecessary_null_comparison
       if (userCredential != null) {
