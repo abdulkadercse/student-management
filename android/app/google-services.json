@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "31212760723",
+    "firebase_url": "https://fir-counter-example-default-rtdb.firebaseio.com",
+    "project_id": "fir-counter-example",
+    "storage_bucket": "fir-counter-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31212760723:android:86c54f1985a24388966766",
+        "android_client_info": {
+          "package_name": "com.knowtechfast.firebase_counter_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31212760723-gko890ujpq1871bqpcsviqomsgt93e19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAzf7I-XyT12OF-aCmPzU8DHTVxyNzaTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31212760723-gko890ujpq1871bqpcsviqomsgt93e19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
