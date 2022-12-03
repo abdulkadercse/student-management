@@ -11,6 +11,7 @@ class LogInRepo extends ChangeNotifier {
   String email = '';
   String password = '';
 
+
   Future<void> signIn(BuildContext context) async {
     EasyLoading.show(status: 'Login...');
     try {
