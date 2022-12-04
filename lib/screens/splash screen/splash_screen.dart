@@ -1,10 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-
-import 'package:firebase_counter_example/student_list.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-
 import '../../authentication/sign_in.dart';
 import '../bottom navigration/bottom_navigation.dart';
 

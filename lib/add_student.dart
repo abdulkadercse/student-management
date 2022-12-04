@@ -257,7 +257,7 @@ class _AddNewStudentState extends State<AddNewStudent> {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10.0,
                 ),
                 AppTextField(
@@ -295,7 +295,7 @@ class _AddNewStudentState extends State<AddNewStudent> {
                         ref.refresh(studentProvider);
                       });
                     },
-                    child: Text('Save')),
+                    child: Container(child: const Text('Save'))),
               ],
             ),
           ),
